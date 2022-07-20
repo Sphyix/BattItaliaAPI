@@ -18,7 +18,7 @@ namespace BattItaliaAPI.App_Start
             {
                 TokenEndpointPath = new PathString("/api/auth/signin"),
                 Provider = new OAuthCustomeTokenProvider(),
-                AccessTokenExpireTimeSpan = TimeSpan.FromMinutes(20),
+                AccessTokenExpireTimeSpan = TimeSpan.FromMinutes(60),
                 AllowInsecureHttp = true,
                 RefreshTokenProvider = new OAuthCustomRefreshTokenProvider(),
             };
