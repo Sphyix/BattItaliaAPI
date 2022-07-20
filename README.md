@@ -1,7 +1,6 @@
 # BattItaliaAPI
  
-Install QueryFirst
-Add file qfconfig.json
+Install QueryFirst, Add file qfconfig.json in the root folder
 ```
 {
   "defaultConnection": "Server=;Database=;User Id=;Password=;",
